@@ -1,0 +1,34 @@
+{
+    "name": "arewebs/jet-vuetify",
+    "description": "Frontend UI package made with Vuetify for Laravel Jetstream with Inertia scaffolding.",
+    "keywords": ["laravel", "vuetify", "ui"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AreWebs",
+            "email": "arewebs@gmail.com"
+        }, {
+            "name": "Kevin Arellano",
+            "email": "k3vin.arellano@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "AreWebs\\JetVuetify\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AreWebs\\JetVuetify\\JetVuetifyServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
