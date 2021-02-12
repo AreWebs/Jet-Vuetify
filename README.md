@@ -1,13 +1,45 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-jetstream.svg">+logo vuetify</p>
+<p align="center"></p>
+
+# JetVuetify
 
 ## Introduction
 
 This package is designed using [Vuetify](https://vuetifyjs.com) to use the power of material desings, in the starter kit for Laravel [Jetstream](https://jetstream.laravel.com) using [Inertia](https://jetstream.laravel.com/1.x/stacks/inertia.html) scaffolding.
 
 
-## Documentation
+## Installing JetVuetify
 
-Documentation for Jetstream can be found on the [Jetstream website](https://jetstream.laravel.com).
+You may use Composer to install this package in your fresh Jetstream installation:
+
+```shell
+composer require arewebs/jet-vuetify
+```
+The package will automatically register a service provider.
+
+
+After installing the package, you can run the jet-vuetify:install Artisan command. In addition, you can use the --teams parameter to activate the team management ui.
+
+
+### Installation
+```shell
+php artisan jet-vuetify:install
+```
+
+### Installation with teams
+```shell
+php artisan jet-vuetify:install --teams
+```
+
+### Finalizing The Installation
+
+After installing JetVuetify, you should install and build your NPM dependencies:
+
+```shell
+npm install
+
+npm run dev
+```
+
 
 ## License
 
